@@ -1,0 +1,1 @@
+CALL db.index.fulltext.createNodeIndex("textSearch", ["Address", "Officer", "Entity", "Intermediary"], ["name", "country_codes", "countries", "sourceID"]);
